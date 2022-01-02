@@ -1,0 +1,116 @@
+/* GENERAL */
+body {
+  background-color: #018281
+}
+
+/* ICONS */
+.container {
+  position: absolute;
+  top: 40%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container2 {
+  position: absolute;
+  top: 60%;
+}
+
+.image2 {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.container2:hover .image2 {
+  opacity: 0.3;
+}
+
+.container3 {
+  position: absolute;
+  top: 82%;
+}
+
+.image3 {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.container3:hover .image3 {
+  opacity: 0.3;
+}
+
+.container4 {
+  position: absolute;
+  top: 60%;
+  left: 13%;
+}
+
+.image4 {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.container4:hover .image4 {
+  opacity: 0.3;
+}
+
+.container5 {
+  position: absolute;
+  top: 80%;
+  left: 13%;
+}
+
+.image5 {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.container5:hover .image5 {
+  opacity: 0.3;
+}
+
+/* FOOTER */
+.about {
+  font-family:'Courier New', Courier, monospace;
+  color: red;
+  opacity: 0%;
+  position: absolute;
+  top: 116%;
+  left: 9%;
+}
+
+.tools {
+  font-family:'Courier New', Courier, monospace;
+  color: red;
+  opacity: 0%;
+  position: absolute; 
+  top: 116%; 
+  left: 21%;
+}
